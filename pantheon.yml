@@ -8,3 +8,5 @@ workflows:
       - type: webphp
         description: Push changes back to GitHub if needed
         script: private/scripts/quicksilver/quicksilver-pushback/push-back-to-github.php
+
+enforce_https: transitional
